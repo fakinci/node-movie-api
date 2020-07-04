@@ -12,7 +12,7 @@ router.get('/', (req, res, next)=> {
 
 //kullanıcı ekleme
 router.post('/register', (req, res, next)=> {
-  /*  const user = new User(req.body);  // bcryptjs kullanmasaydık kısaca böyla yapılabilirdi
+  /*  const user = new User(req.body);  // bcryptjs kullanmasaydık kısaca böyle yapılabilirdi
   const promise = user.save()
   promise.then((data)=>{
     res.json(data);
