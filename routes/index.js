@@ -7,7 +7,7 @@ const jwt = require("jsonwebtoken");
 
 /* GET home page. */
 router.get('/', (req, res, next)=> {
-  res.render('index', { title: 'Express' });
+  res.render('index', { title: 'Hi Express' });
 });
 
 //kullanıcı ekleme
