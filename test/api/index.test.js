@@ -1,4 +1,4 @@
-const chai = require("chai");               //"test": "mocha --exit --recursive"   package.json da scripts  bölümüne bunu ekle (test klasörü altındaki tüm dosyaları görmesi için)
+const chai = require("chai");               //"test": "./node_modules/.bin/mocha --exit --recursive"   package.json da scripts  bölümüne bunu ekle (test klasörü altındaki tüm dosyaları görmesi için)
 const chaiHttp = require("chai-http");
 const should = chai.should();
 
